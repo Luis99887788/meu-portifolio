@@ -1,0 +1,98 @@
+
+/* CONFIGURAÇÃO GERAL */
+body {
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* MENU */
+.navbar {
+    border-bottom: 2px solid #ffc107;
+}
+
+.navbar-brand {
+    color: #ffc107 !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* PERFIL */
+#perfil {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#perfil h1 {
+    color: #ffc107;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#perfil h3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#perfil p {
+    max-width: 650px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+/* PROJETOS */
+#projetos h2 {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #222222;
+    color: white;
+    border: 1px solid #ffc107;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* RECURSO NOVO: ANIMAÇÃO DOS CARTÕES */
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(255, 193, 7, 0.3);
+}
+
+.card-title {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+/* BOTÕES */
+.btn-warning {
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-warning:hover {
+    transform: scale(1.05);
+    background-color: #e0a800;
+}
+
+/* CONTATO */
+#contato h2 {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+/* RODAPÉ */
+footer {
+    border-top: 2px solid #ffc107;
+    margin-top: 30px;
+}
